@@ -1,0 +1,1060 @@
+{
+  "firstLayout": "",
+  "gdVersion": {
+    "build": 99,
+    "major": 4,
+    "minor": 0,
+    "revision": 0
+  },
+  "properties": {
+    "adaptGameResolutionAtRuntime": true,
+    "antialiasingMode": "MSAA",
+    "antialisingEnabledOnMobile": false,
+    "folderProject": false,
+    "orientation": "landscape",
+    "packageName": "com.example.gamename",
+    "pixelsRounding": false,
+    "projectUuid": "756e1676-668b-4c78-be76-f44b9c9f6a5a",
+    "scaleMode": "linear",
+    "sizeOnStartupMode": "adaptWidth",
+    "templateSlug": "",
+    "useExternalSourceFiles": false,
+    "version": "1.0.0",
+    "name": "Dusty Recess",
+    "description": "",
+    "author": "",
+    "windowWidth": 1280,
+    "windowHeight": 720,
+    "latestCompilationDirectory": "",
+    "maxFPS": 60,
+    "minFPS": 20,
+    "verticalSync": false,
+    "platformSpecificAssets": {},
+    "loadingScreen": {
+      "backgroundColor": 0,
+      "backgroundFadeInDuration": 0.2,
+      "backgroundImageResourceName": "",
+      "gdevelopLogoStyle": "light",
+      "logoAndProgressFadeInDuration": 0.2,
+      "logoAndProgressLogoFadeInDelay": 0.2,
+      "minDuration": 1.5,
+      "progressBarColor": 16777215,
+      "progressBarHeight": 20,
+      "progressBarMaxWidth": 200,
+      "progressBarMinWidth": 40,
+      "progressBarWidthPercent": 30,
+      "showGDevelopSplash": true,
+      "showProgressBar": true
+    },
+    "watermark": {
+      "placement": "bottom-left",
+      "showWatermark": true
+    },
+    "authorIds": [],
+    "authorUsernames": [],
+    "categories": [],
+    "playableDevices": [],
+    "extensionProperties": [],
+    "platforms": [
+      {
+        "name": "GDevelop JS platform"
+      }
+    ],
+    "currentPlatform": "GDevelop JS platform"
+  },
+  "resources": {
+    "resources": [
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite.png\"}",
+        "name": "NewSprite",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite - Copy.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/NewSprite - Copy.png\",\"extension\":\".png\"}",
+        "name": "assets\\NewSprite - Copy.png",
+        "smoothed": true,
+        "userAdded": true
+      }
+    ],
+    "resourceFolders": []
+  },
+  "objects": [],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT"
+  },
+  "objectsGroups": [],
+  "variables": [],
+  "layouts": [
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Untitled_32scene",
+      "name": "Untitled scene",
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {
+        "grid": true,
+        "gridType": "rectangular",
+        "gridWidth": 16,
+        "gridHeight": 16,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": true,
+        "zoomFactor": 1.1343715797160947,
+        "windowMask": false
+      },
+      "objectsGroups": [],
+      "variables": [
+        {
+          "folded": true,
+          "name": "FirstSelection",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "folded": true,
+          "name": "Swapping",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "folded": true,
+          "name": "x1",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "folded": true,
+          "name": "y1",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "folded": true,
+          "name": "x2",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "folded": true,
+          "name": "y2",
+          "type": "number",
+          "value": 0
+        }
+      ],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "NewSprite",
+          "persistentUuid": "2e7d0ae0-e54a-493e-863b-c217220f9a54",
+          "width": 0,
+          "x": 544,
+          "y": 352,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "NewSprite",
+          "persistentUuid": "6f5ce404-8cf7-48ee-9cf9-2ff667e53d50",
+          "width": 0,
+          "x": 544,
+          "y": 256,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "NewSprite",
+          "persistentUuid": "0ad72cc3-6fd0-4a6b-893e-694a386af6b2",
+          "width": 0,
+          "x": 544,
+          "y": 304,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "NewSprite",
+          "persistentUuid": "16741a1f-9f12-4a91-9e6b-9bfe5966a564",
+          "width": 0,
+          "x": 640,
+          "y": 352,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "NewSprite",
+          "persistentUuid": "b0bfd245-3953-4f2f-98a4-f79f00850282",
+          "width": 0,
+          "x": 640,
+          "y": 256,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "NewSprite",
+          "persistentUuid": "19850c05-dc11-4b01-91c1-9b74c425ca0f",
+          "width": 0,
+          "x": 640,
+          "y": 304,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "NewSprite",
+          "persistentUuid": "e3cb4e46-d401-40b5-86de-61d2d9f803e5",
+          "width": 0,
+          "x": 592,
+          "y": 352,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "NewSprite",
+          "persistentUuid": "02929ece-ac74-4948-bfd5-301fd936e530",
+          "width": 0,
+          "x": 592,
+          "y": 256,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "NewSprite",
+          "persistentUuid": "ae4ba3b5-b2f9-49db-82aa-c074f2cdc06b",
+          "width": 0,
+          "x": 592,
+          "y": 304,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "folded": true,
+              "name": "Selected",
+              "type": "boolean",
+              "value": false
+            }
+          ],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "NotSelected",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 32,
+                            "y": 0
+                          },
+                          {
+                            "x": 32,
+                            "y": 32
+                          },
+                          {
+                            "x": 0,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Selected",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\NewSprite - Copy.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 32,
+                            "y": 0
+                          },
+                          {
+                            "x": 32,
+                            "y": 32
+                          },
+                          {
+                            "x": 0,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "NewSprite"
+          }
+        ]
+      },
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ChangeColor"
+              },
+              "parameters": [
+                "NewSprite",
+                "ToString(RandomInRange(125,200)) + \";\" + \nToString(RandomInRange(125,200)) + \";\" + \nToString(RandomInRange(125,200)) "
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            },
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "NewSprite",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PickNearest"
+              },
+              "parameters": [
+                "NewSprite",
+                "CursorX()",
+                "CursorX()",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SceneVariableAsBoolean"
+              },
+              "parameters": [
+                "Swapping",
+                ""
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SceneVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "FirstSelection",
+                    "True"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Or"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::And"
+                      },
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "value": "PosX"
+                          },
+                          "parameters": [
+                            "NewSprite",
+                            "=",
+                            "x1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PosY"
+                          },
+                          "parameters": [
+                            "NewSprite",
+                            "!=",
+                            "y1"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::And"
+                      },
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "value": "PosX"
+                          },
+                          "parameters": [
+                            "NewSprite",
+                            "!=",
+                            "x1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PosY"
+                          },
+                          "parameters": [
+                            "NewSprite",
+                            "=",
+                            "y1"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "NewSprite",
+                    "Animation",
+                    "=",
+                    "\"Selected\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetSceneVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Swapping",
+                    "True"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "x2",
+                    "=",
+                    "NewSprite.X()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "y2",
+                    "=",
+                    "NewSprite.Y()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectPositionTween2"
+                  },
+                  "parameters": [
+                    "NewSprite",
+                    "Tween",
+                    "\"Move1\"",
+                    "x1",
+                    "y1",
+                    "\"linear\"",
+                    ".5",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SceneVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Swapping",
+                    "True"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AjoutObjConcern"
+                  },
+                  "parameters": [
+                    "",
+                    "NewSprite"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "NewSprite",
+                    "Selected",
+                    "True"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectPositionTween2"
+                  },
+                  "parameters": [
+                    "NewSprite",
+                    "Tween",
+                    "\"Move2\"",
+                    "x2",
+                    "y2",
+                    "\"linear\"",
+                    ".5",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "NewSprite",
+                    "Selected",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SceneVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "FirstSelection",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "NewSprite",
+                    "Animation",
+                    "=",
+                    "\"NotSelected\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ToggleObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "NewSprite",
+                    "Selected"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ToggleSceneVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "FirstSelection"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "ObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "NewSprite",
+                        "Selected",
+                        "True"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "NewSprite",
+                        "Animation",
+                        "=",
+                        "\"Selected\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "x1",
+                        "=",
+                        "NewSprite.X()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "y1",
+                        "=",
+                        "NewSprite.Y()"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SceneVariableAsBoolean"
+              },
+              "parameters": [
+                "Swapping",
+                "True"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::HasFinished"
+              },
+              "parameters": [
+                "NewSprite",
+                "Tween",
+                "\"Move1\""
+              ]
+            },
+            {
+              "type": {
+                "value": "AjoutObjConcern"
+              },
+              "parameters": [
+                "",
+                "NewSprite"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::HasFinished"
+              },
+              "parameters": [
+                "NewSprite",
+                "Tween",
+                "\"Move2\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AjoutObjConcern"
+              },
+              "parameters": [
+                "",
+                "NewSprite"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "NewSprite",
+                "Animation",
+                "=",
+                "\"NotSelected\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetSceneVariableAsBoolean"
+              },
+              "parameters": [
+                "Swapping",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetSceneVariableAsBoolean"
+              },
+              "parameters": [
+                "FirstSelection",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::RemoveTween"
+              },
+              "parameters": [
+                "NewSprite",
+                "Tween",
+                "\"Move1\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::RemoveTween"
+              },
+              "parameters": [
+                "NewSprite",
+                "Tween",
+                "\"Move2\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SceneVariableAsBoolean"
+              },
+              "parameters": [
+                "Swapping",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Not"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "NewSprite",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AjoutObjConcern"
+              },
+              "parameters": [
+                "",
+                "NewSprite"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "NewSprite",
+                "Animation",
+                "=",
+                "\"NotSelected\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetSceneVariableAsBoolean"
+              },
+              "parameters": [
+                "FirstSelection",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "NewSprite",
+                "Selected",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 0,
+          "ambientLightColorG": 8042920,
+          "ambientLightColorR": 16,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 0.1,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "Animation",
+          "type": "AnimatableCapability::AnimatableBehavior"
+        },
+        {
+          "name": "Effect",
+          "type": "EffectCapability::EffectBehavior"
+        },
+        {
+          "name": "Flippable",
+          "type": "FlippableCapability::FlippableBehavior"
+        },
+        {
+          "name": "Opacity",
+          "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "Resizable",
+          "type": "ResizableCapability::ResizableBehavior"
+        },
+        {
+          "name": "Scale",
+          "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ]
+    }
+  ],
+  "externalEvents": [],
+  "eventsFunctionsExtensions": [],
+  "externalLayouts": [],
+  "externalSourceFiles": []
+}
